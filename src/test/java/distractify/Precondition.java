@@ -1,4 +1,4 @@
-package distracify;
+package distractify;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 /**
  * Created by pogosov on 30.04.2014.
  */
-public class WebdriverTest {
+public class Precondition {
     @Test
     public void preconditionTest()
     {

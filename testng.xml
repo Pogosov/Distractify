@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="JMeter tests">
-    <test verbose="2" name="Precondition">
-        <classes>
-            <class name="distracify.WebdriverTest"/>
-        </classes>
-    </test>
+    <test verbose="1" name="Precondition">
+    <classes>
+        <class name="distractify.Precondition"/>
+    </classes>
+</test>
     <test verbose="2" name="Test" parallel="methods" thread-count="20">
         <classes>
-            <class name="distracify.ExampleJavaTestClass"/>
+            <class name="distractify.Tests"/>
         </classes>
     </test>
 </suite>
