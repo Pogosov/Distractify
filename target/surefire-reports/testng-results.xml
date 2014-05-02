@@ -1,92 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="20" passed="20">
+<testng-results skipped="0" failed="0" total="21" passed="21">
   <reporter-output>
   </reporter-output>
-  <suite name="JMeter tests" duration-ms="1537" started-at="2014-05-01T13:38:29Z" finished-at="2014-05-01T13:38:31Z">
+  <suite name="JMeter tests" duration-ms="50501" started-at="2014-05-02T14:02:39Z" finished-at="2014-05-02T14:03:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="1537" started-at="2014-05-01T13:38:29Z" finished-at="2014-05-01T13:38:31Z">
+    <test name="Precondition" duration-ms="49421" started-at="2014-05-02T14:02:39Z" finished-at="2014-05-02T14:03:29Z">
+      <class name="distractify.Precondition">
+        <test-method status="PASS" signature="preconditionTest()[pri:0, instance:distractify.Precondition@1a28182]" name="preconditionTest" duration-ms="49380" started-at="2014-05-02T17:02:39Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preconditionTest -->
+      </class> <!-- distractify.Precondition -->
+    </test> <!-- Precondition -->
+    <test name="Test" duration-ms="978" started-at="2014-05-02T14:03:29Z" finished-at="2014-05-02T14:03:30Z">
       <class name="distractify.Tests">
-        <test-method status="PASS" signature="user12()[pri:0, instance:distractify.Tests@1737e47]" name="user12" duration-ms="470" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user12 -->
-        <test-method status="PASS" signature="user11()[pri:0, instance:distractify.Tests@1737e47]" name="user11" duration-ms="535" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user11 -->
-        <test-method status="PASS" signature="user10()[pri:0, instance:distractify.Tests@1737e47]" name="user10" duration-ms="540" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user10 -->
-        <test-method status="PASS" signature="user1()[pri:0, instance:distractify.Tests@1737e47]" name="user1" duration-ms="548" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
+        <test-method status="PASS" signature="user1()[pri:0, instance:distractify.Tests@17b51e8]" name="user1" duration-ms="700" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user1 -->
-        <test-method status="PASS" signature="user15()[pri:0, instance:distractify.Tests@1737e47]" name="user15" duration-ms="540" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
+        <test-method status="PASS" signature="user11()[pri:0, instance:distractify.Tests@17b51e8]" name="user11" duration-ms="702" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user15 -->
-        <test-method status="PASS" signature="user13()[pri:0, instance:distractify.Tests@1737e47]" name="user13" duration-ms="438" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
+        </test-method> <!-- user11 -->
+        <test-method status="PASS" signature="user12()[pri:0, instance:distractify.Tests@17b51e8]" name="user12" duration-ms="718" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- user13 -->
-        <test-method status="PASS" signature="user17()[pri:0, instance:distractify.Tests@1737e47]" name="user17" duration-ms="530" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user17 -->
-        <test-method status="PASS" signature="user20()[pri:0, instance:distractify.Tests@1737e47]" name="user20" duration-ms="425" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user20 -->
-        <test-method status="PASS" signature="user19()[pri:0, instance:distractify.Tests@1737e47]" name="user19" duration-ms="478" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user19 -->
-        <test-method status="PASS" signature="user4()[pri:0, instance:distractify.Tests@1737e47]" name="user4" duration-ms="1500" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user4 -->
-        <test-method status="PASS" signature="user6()[pri:0, instance:distractify.Tests@1737e47]" name="user6" duration-ms="472" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user6 -->
-        <test-method status="PASS" signature="user8()[pri:0, instance:distractify.Tests@1737e47]" name="user8" duration-ms="543" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user8 -->
-        <test-method status="PASS" signature="user18()[pri:0, instance:distractify.Tests@1737e47]" name="user18" duration-ms="468" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user18 -->
-        <test-method status="PASS" signature="user14()[pri:0, instance:distractify.Tests@1737e47]" name="user14" duration-ms="467" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user14 -->
-        <test-method status="PASS" signature="user2()[pri:0, instance:distractify.Tests@1737e47]" name="user2" duration-ms="462" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user2 -->
-        <test-method status="PASS" signature="user16()[pri:0, instance:distractify.Tests@1737e47]" name="user16" duration-ms="461" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user16 -->
-        <test-method status="PASS" signature="user7()[pri:0, instance:distractify.Tests@1737e47]" name="user7" duration-ms="397" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- user7 -->
-        <test-method status="PASS" signature="user9()[pri:0, instance:distractify.Tests@1737e47]" name="user9" duration-ms="463" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
+        </test-method> <!-- user12 -->
+        <test-method status="PASS" signature="user9()[pri:0, instance:distractify.Tests@17b51e8]" name="user9" duration-ms="711" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user9 -->
-        <test-method status="PASS" signature="user5()[pri:0, instance:distractify.Tests@1737e47]" name="user5" duration-ms="458" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
+        <test-method status="PASS" signature="user13()[pri:0, instance:distractify.Tests@17b51e8]" name="user13" duration-ms="791" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user13 -->
+        <test-method status="PASS" signature="user10()[pri:0, instance:distractify.Tests@17b51e8]" name="user10" duration-ms="949" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user10 -->
+        <test-method status="PASS" signature="user5()[pri:0, instance:distractify.Tests@17b51e8]" name="user5" duration-ms="710" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user5 -->
-        <test-method status="PASS" signature="user3()[pri:0, instance:distractify.Tests@1737e47]" name="user3" duration-ms="533" started-at="2014-05-01T16:38:29Z" finished-at="2014-05-01T16:38:30Z">
+        <test-method status="PASS" signature="user3()[pri:0, instance:distractify.Tests@17b51e8]" name="user3" duration-ms="711" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user3 -->
+        <test-method status="PASS" signature="user2()[pri:0, instance:distractify.Tests@17b51e8]" name="user2" duration-ms="785" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user2 -->
+        <test-method status="PASS" signature="user4()[pri:0, instance:distractify.Tests@17b51e8]" name="user4" duration-ms="788" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user4 -->
+        <test-method status="PASS" signature="user6()[pri:0, instance:distractify.Tests@17b51e8]" name="user6" duration-ms="950" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user6 -->
+        <test-method status="PASS" signature="user20()[pri:0, instance:distractify.Tests@17b51e8]" name="user20" duration-ms="787" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user20 -->
+        <test-method status="PASS" signature="user18()[pri:0, instance:distractify.Tests@17b51e8]" name="user18" duration-ms="697" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user18 -->
+        <test-method status="PASS" signature="user19()[pri:0, instance:distractify.Tests@17b51e8]" name="user19" duration-ms="718" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user19 -->
+        <test-method status="PASS" signature="user7()[pri:0, instance:distractify.Tests@17b51e8]" name="user7" duration-ms="783" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user7 -->
+        <test-method status="PASS" signature="user8()[pri:0, instance:distractify.Tests@17b51e8]" name="user8" duration-ms="872" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user8 -->
+        <test-method status="PASS" signature="user14()[pri:0, instance:distractify.Tests@17b51e8]" name="user14" duration-ms="699" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user14 -->
+        <test-method status="PASS" signature="user15()[pri:0, instance:distractify.Tests@17b51e8]" name="user15" duration-ms="689" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user15 -->
+        <test-method status="PASS" signature="user17()[pri:0, instance:distractify.Tests@17b51e8]" name="user17" duration-ms="716" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user17 -->
+        <test-method status="PASS" signature="user16()[pri:0, instance:distractify.Tests@17b51e8]" name="user16" duration-ms="695" started-at="2014-05-02T17:03:29Z" finished-at="2014-05-02T17:03:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user16 -->
       </class> <!-- distractify.Tests -->
     </test> <!-- Test -->
   </suite> <!-- JMeter tests -->

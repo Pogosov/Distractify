@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-JMeter_tests">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods,   20 passed</span>
+                    <span class="method-stats">21 methods,   21 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-JMeter_tests" class="show-methods passed suite-JMeter_tests"> (show)</a> <!-- show-methods passed suite-JMeter_tests -->
                     </span>
                     <div class="method-list-content passed suite-JMeter_tests">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-JMeter_tests" title="distractify.Precondition" hash-for-method="preconditionTest">preconditionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-JMeter_tests" title="distractify.Tests" hash-for-method="user1">user1</a> <!-- method navigator-link -->
@@ -359,6 +364,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-JMeter_tests-class-passed -->
+          <div class="suite-JMeter_tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">distractify.Precondition</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="preconditionTest">
+                  </a> <!-- preconditionTest -->
+                  <span class="method-name">preconditionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-JMeter_tests-class-passed -->
         </div> <!-- panel JMeter_tests -->
         <div panel-name="test-xml-JMeter_tests" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -369,6 +389,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite verbose=&quot;0&quot; name=&quot;JMeter tests&quot;&gt;
+  &lt;test name=&quot;Precondition&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;distractify.Precondition&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Precondition --&gt;
   &lt;test thread-count=&quot;20&quot; verbose=&quot;2&quot; name=&quot;Test&quot; parallel=&quot;methods&quot; preserve-order=&quot;true&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;distractify.Tests&quot;/&gt;
@@ -384,6 +409,9 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
+              <li>
+                <span class="test-name">Precondition (1 class)</span>
+              </li>
               <li>
                 <span class="test-name">Test (1 class)</span>
               </li>
@@ -411,92 +439,96 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(20);
+data.addRows(21);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'user4')
-data.setCell(0, 2, 'distractify.Tests')
-data.setCell(0, 3, 1500);
+data.setCell(0, 1, 'preconditionTest')
+data.setCell(0, 2, 'distractify.Precondition')
+data.setCell(0, 3, 49380);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'user1')
+data.setCell(1, 1, 'user6')
 data.setCell(1, 2, 'distractify.Tests')
-data.setCell(1, 3, 548);
+data.setCell(1, 3, 950);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'user8')
+data.setCell(2, 1, 'user10')
 data.setCell(2, 2, 'distractify.Tests')
-data.setCell(2, 3, 543);
+data.setCell(2, 3, 949);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'user15')
+data.setCell(3, 1, 'user8')
 data.setCell(3, 2, 'distractify.Tests')
-data.setCell(3, 3, 540);
+data.setCell(3, 3, 872);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'user10')
+data.setCell(4, 1, 'user13')
 data.setCell(4, 2, 'distractify.Tests')
-data.setCell(4, 3, 540);
+data.setCell(4, 3, 791);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'user11')
+data.setCell(5, 1, 'user4')
 data.setCell(5, 2, 'distractify.Tests')
-data.setCell(5, 3, 535);
+data.setCell(5, 3, 788);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'user3')
+data.setCell(6, 1, 'user20')
 data.setCell(6, 2, 'distractify.Tests')
-data.setCell(6, 3, 533);
+data.setCell(6, 3, 787);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'user17')
+data.setCell(7, 1, 'user2')
 data.setCell(7, 2, 'distractify.Tests')
-data.setCell(7, 3, 530);
+data.setCell(7, 3, 785);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'user19')
+data.setCell(8, 1, 'user7')
 data.setCell(8, 2, 'distractify.Tests')
-data.setCell(8, 3, 478);
+data.setCell(8, 3, 783);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'user6')
+data.setCell(9, 1, 'user12')
 data.setCell(9, 2, 'distractify.Tests')
-data.setCell(9, 3, 472);
+data.setCell(9, 3, 718);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'user12')
+data.setCell(10, 1, 'user19')
 data.setCell(10, 2, 'distractify.Tests')
-data.setCell(10, 3, 470);
+data.setCell(10, 3, 718);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'user18')
+data.setCell(11, 1, 'user17')
 data.setCell(11, 2, 'distractify.Tests')
-data.setCell(11, 3, 468);
+data.setCell(11, 3, 716);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'user14')
+data.setCell(12, 1, 'user9')
 data.setCell(12, 2, 'distractify.Tests')
-data.setCell(12, 3, 467);
+data.setCell(12, 3, 711);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'user9')
+data.setCell(13, 1, 'user3')
 data.setCell(13, 2, 'distractify.Tests')
-data.setCell(13, 3, 463);
+data.setCell(13, 3, 711);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'user2')
+data.setCell(14, 1, 'user5')
 data.setCell(14, 2, 'distractify.Tests')
-data.setCell(14, 3, 462);
+data.setCell(14, 3, 710);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'user16')
+data.setCell(15, 1, 'user11')
 data.setCell(15, 2, 'distractify.Tests')
-data.setCell(15, 3, 461);
+data.setCell(15, 3, 702);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'user5')
+data.setCell(16, 1, 'user1')
 data.setCell(16, 2, 'distractify.Tests')
-data.setCell(16, 3, 458);
+data.setCell(16, 3, 700);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'user13')
+data.setCell(17, 1, 'user14')
 data.setCell(17, 2, 'distractify.Tests')
-data.setCell(17, 3, 438);
+data.setCell(17, 3, 699);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'user20')
+data.setCell(18, 1, 'user18')
 data.setCell(18, 2, 'distractify.Tests')
-data.setCell(18, 3, 425);
+data.setCell(18, 3, 697);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'user7')
+data.setCell(19, 1, 'user16')
 data.setCell(19, 2, 'distractify.Tests')
-data.setCell(19, 3, 397);
+data.setCell(19, 3, 695);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'user15')
+data.setCell(20, 2, 'distractify.Tests')
+data.setCell(20, 3, 689);
 window.suiteTableData['JMeter_tests']= { tableData: data, tableDiv: 'times-div-JMeter_tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-JMeter_tests">
               </div> <!-- times-div-JMeter_tests -->
             </div> <!-- times-div -->
@@ -522,86 +554,93 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">distractify.Precondition</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">preconditionTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">distractify.Tests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">user1</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user10</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">49491 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">user11</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">49493 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">user12</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user13</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user15</span>
-                <span class="method-start">1 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user17</span>
-                <span class="method-start">2 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user19</span>
-                <span class="method-start">4 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user20</span>
-                <span class="method-start">4 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user4</span>
-                <span class="method-start">5 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user6</span>
-                <span class="method-start">5 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user8</span>
-                <span class="method-start">5 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user14</span>
-                <span class="method-start">6 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user16</span>
-                <span class="method-start">6 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user18</span>
-                <span class="method-start">6 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user2</span>
-                <span class="method-start">6 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">user7</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">49497 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">user9</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">49501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user13</span>
+                <span class="method-start">49502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user10</span>
+                <span class="method-start">49503 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">user3</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-start">49504 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">user5</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-start">49504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user2</span>
+                <span class="method-start">49505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user6</span>
+                <span class="method-start">49505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user4</span>
+                <span class="method-start">49505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user18</span>
+                <span class="method-start">49506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user20</span>
+                <span class="method-start">49506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user19</span>
+                <span class="method-start">49506 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user8</span>
+                <span class="method-start">49507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user7</span>
+                <span class="method-start">49507 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user16</span>
+                <span class="method-start">49508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user17</span>
+                <span class="method-start">49508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user14</span>
+                <span class="method-start">49508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user15</span>
+                <span class="method-start">49508 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
